@@ -16,7 +16,7 @@ Our model is able to recognize all the letters in the alphabet, capital letters,
 ![Braille Character Chart](https://github.com/HelenG123/aeye-alliance/blob/master/static/braille_character_chart.jpg)
 
 
-The main objective of this project is to bring awareness of Braille and to bridge the gap of communication between blind and non-blind people.
+The main objectives of this project are to raise awareness of Braille and to bridge the gap of communication between blind and non-blind people.
 
 ## User Interfaces ##
 * Website

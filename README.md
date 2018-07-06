@@ -1,8 +1,8 @@
 # AEyeAlliance
-AI4SocialGood Final Project: Braille to text converter (Optical Character Recognition/Optical Braille Recognition)
+Continuation of the AI4SocialGood Final Project: Braille to text converter (Optical Character Recognition/Optical Braille Recognition)
 
 ## About us ##
-We are a group of four undergraduate female students in computer science who are currently partaking in the AI4SocialGood Lab at McGill University. Throughout the first 2 weeks of the lab, we learned about AI and machine learning techniques and are now applying this knowledge to solve a social problem.
+We are a group of four undergraduate female students in computer science who were part of the AI4SocialGood Lab 2018 at McGill University. Throughout the first 2 weeks of the lab, we learned about AI and machine learning techniques and are now applying this knowledge to solve a social problem. 
 
 <p align="center"> 
   <img src="https://github.com/HelenG123/aeye-alliance/blob/master/static/grouppic.jpg?raw=true" />
@@ -22,7 +22,7 @@ The main objectives of this project are to raise awareness of Braille and to bri
 * Website
 * Android app
 
-Our Android app has a cropping function that allows users to take a picture or choose an image of Braille and crop it to get rid of white space around the characters. This cropping functionality is important because our model uses ratio image segmentation to distinguish different Braille characters. We were able to successfully import and load our model in Android Studio. Unfortunately, due to errors with some kernel operations from using Tensorflow with Android Studio, we were not able to feed our Braille images into our model. [We have posted this error on StackOverFlow.](https://stackoverflow.com/questions/50955816/java-lang-illegalargumentexception-no-opkernel-was-registered-to-support-op-ga). For the time being, we will use our website as the main Braille-to-Text converter.
+Our Android app has a cropping function that allows users to take a picture or choose an image of Braille and crop it to get rid of white space around the characters. This cropping functionality is important because our AI uses ratio image segmentation to distinguish different Braille characters. We were able to successfully import and load our model in Android Studio. Unfortunately, due to errors with some kernel operations from using Tensorflow with Android Studio, we were not able to feed our Braille images into our model. [We have posted this error on StackOverFlow.](https://stackoverflow.com/questions/50955816/java-lang-illegalargumentexception-no-opkernel-was-registered-to-support-op-ga). For the time being, we will use our website as the main Braille-to-Text converter.
 
 ## Open Source Dataset ##
 Since we were not able to find an open source or public dataset of images of English Grade 1 Braille, we are planning on releasing our own dataset to be downloaded and used for free. At the moment, we have approximately 30,000 Braille characters in our dataset and are continuing to add more.
@@ -38,6 +38,12 @@ Since we were not able to find an open source or public dataset of images of Eng
 `pip install Flask_Uploads`
 6. Copy and paste the HTTP link onto your browser. 
 7. If you are unsure about how to use our Braille-to-Text converter, there is a Tutorial page on our site that will show you how. 
+
+## Future Goals ##
+1. Increase our dataset to 100,000 characters
+2. Use image segmentation
+3. Debug kernel errors in our Android app
+4. Host our website
 
 ## Credits ##
 Special thanks to our mentors Peng Yu and Francis Gregoire!

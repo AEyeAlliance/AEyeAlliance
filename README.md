@@ -25,6 +25,8 @@ The main objectives of this project are to raise awareness of Braille and to bri
   <img src="https://github.com/HelenG123/aeye-alliance/blob/master/static/web.gif?raw=true" />
 </p>
 
+To access our website, click [here](https://github.com/AEyeAlliance/web-application)
+
 * Android app
 
 <p align="center"> 
@@ -33,20 +35,10 @@ The main objectives of this project are to raise awareness of Braille and to bri
 
 Our Android app has a cropping function that allows users to take a picture or choose an image of Braille and crop it to get rid of white space around the characters. This cropping functionality is important because our AI uses ratio image segmentation to distinguish different Braille characters. We were able to successfully import and load our model in Android Studio. Unfortunately, due to errors with some kernel operations from using Tensorflow with Android Studio, we were not able to feed our Braille images into our model. [We have posted this error on StackOverFlow.](https://stackoverflow.com/questions/50955816/java-lang-illegalargumentexception-no-opkernel-was-registered-to-support-op-ga). For the time being, we will use our website as the main Braille-to-Text converter.
 
+To access our android app, click [here](https://github.com/AEyeAlliance/android-app). 
+
 ## Open Source Dataset ##
 Since we were not able to find an open source or public dataset of images of English Grade 1 Braille, we are planning on releasing our own dataset to be downloaded and used for free. At the moment, we have approximately 30,000 Braille characters in our dataset and are continuing to add more.
-
-## How to run flask to access our website ##
-1. Make sure your machine has Flask installed in either conda or pip
-2. Clone/Download this repository
-3. Navigate to the repo directory on your command prompt and type
-`python learn_flask.py`
-4. You should see something similar to this
-![running flask](https://github.com/HelenG123/aeye-alliance/blob/master/flask.png)
-5. If you get an "ImportError: No module named flask_uploads", try
-`pip install Flask_Uploads`
-6. Copy and paste the HTTP link onto your browser. 
-7. If you are unsure about how to use our Braille-to-Text converter, there is a Tutorial page on our site that will show you how. 
 
 ## Future Goals ##
 1. Increase our dataset to 100,000 characters
@@ -54,6 +46,6 @@ Since we were not able to find an open source or public dataset of images of Eng
 3. Debug kernel errors in our Android app
 4. Host our website
 
-## Credits ##
+## Acknowledgements ##
 Special thanks to our mentors Peng Yu and Francis Gregoire!
 

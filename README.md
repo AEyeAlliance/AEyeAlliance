@@ -21,14 +21,14 @@ Our model is able to recognize all the letters in the alphabet, capital letters,
 * Website
 
 <p align="center"> 
-  <img src="https://github.com/HelenG123/aeye-alliance/blob/master/static/web.gif?raw=true" />
+  <img src="https://github.com/HelenG123/aeye-alliance/blob/master/static/web.gif?raw=true" /></br>
   <a href="https://github.com/AEyeAlliance/web-application">Click here to access our website.</a> 
 </p>
 
 * Android app
 
 <p align="center"> 
-  <img src="https://github.com/HelenG123/aeye-alliance/blob/master/static/android_app.gif?raw=true" />
+  <img src="https://github.com/HelenG123/aeye-alliance/blob/master/static/android_app.gif?raw=true" /></br>
   <a href="https://github.com/AEyeAlliance/android-app">Click here to access our android app.</a> 
 </p>
 

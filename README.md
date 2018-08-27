@@ -1,6 +1,8 @@
 # AEyeAlliance
 Continuation of the AI4SocialGood Final Project: Braille to text converter (Optical Character Recognition/Optical Braille Recognition)
 
+<b>The main objectives of this project are to raise awareness of Braille and to bridge the gap of communication between blind and non-blind people.</b>
+
 ## About us ##
 We are a group of four undergraduate female students in computer science who were part of the AI4SocialGood Lab 2018 at McGill University. Throughout the first 2 weeks of the lab, we learned about AI and machine learning techniques and are now applying this knowledge to solve a social problem. 
 
@@ -15,22 +17,19 @@ Our model is able to recognize all the letters in the alphabet, capital letters,
 
 ![Braille Character Chart](https://github.com/HelenG123/aeye-alliance/blob/master/static/braille_character_chart.jpg)
 
-
-The main objectives of this project are to raise awareness of Braille and to bridge the gap of communication between blind and non-blind people.
-
 ## User Interfaces ##
 * Website
 
 <p align="center"> 
   <img src="https://github.com/HelenG123/aeye-alliance/blob/master/static/web.gif?raw=true" />
-  <b>To access our website, click [here](https://github.com/AEyeAlliance/web-application).<b> 
+  <a href="https://github.com/AEyeAlliance/web-application">Click here to access our website.</a> 
 </p>
 
 * Android app
 
 <p align="center"> 
   <img src="https://github.com/HelenG123/aeye-alliance/blob/master/static/android_app.gif?raw=true" />
-  <b>To access our android app, click [here](https://github.com/AEyeAlliance/android-app).</b>
+  <a href="https://github.com/AEyeAlliance/android-app">Click here to access our android app.</a> 
 </p>
 
 Our Android app has a cropping function that allows users to take a picture or choose an image of Braille and crop it to get rid of white space around the characters. This cropping functionality is important because our AI uses ratio image segmentation to distinguish different Braille characters. We were able to successfully import and load our model in Android Studio. Unfortunately, due to errors with some kernel operations from using Tensorflow with Android Studio, we were not able to feed our Braille images into our model. [We have posted this error on StackOverFlow.](https://stackoverflow.com/questions/50955816/java-lang-illegalargumentexception-no-opkernel-was-registered-to-support-op-ga). For the time being, we will use our website as the main Braille-to-Text converter.

@@ -23,14 +23,14 @@ The main objectives of this project are to raise awareness of Braille and to bri
 
 <p align="center"> 
   <img src="https://github.com/HelenG123/aeye-alliance/blob/master/static/web.gif?raw=true" />
-  To access our website, click [here](https://github.com/AEyeAlliance/web-application)
+  <b>To access our website, click [here](https://github.com/AEyeAlliance/web-application).<b> 
 </p>
 
 * Android app
 
 <p align="center"> 
   <img src="https://github.com/HelenG123/aeye-alliance/blob/master/static/android_app.gif?raw=true" />
-  To access our android app, click [here](https://github.com/AEyeAlliance/android-app). 
+  <b>To access our android app, click [here](https://github.com/AEyeAlliance/android-app).</b>
 </p>
 
 Our Android app has a cropping function that allows users to take a picture or choose an image of Braille and crop it to get rid of white space around the characters. This cropping functionality is important because our AI uses ratio image segmentation to distinguish different Braille characters. We were able to successfully import and load our model in Android Studio. Unfortunately, due to errors with some kernel operations from using Tensorflow with Android Studio, we were not able to feed our Braille images into our model. [We have posted this error on StackOverFlow.](https://stackoverflow.com/questions/50955816/java-lang-illegalargumentexception-no-opkernel-was-registered-to-support-op-ga). For the time being, we will use our website as the main Braille-to-Text converter.
